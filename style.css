@@ -1,0 +1,55 @@
+body {
+    font-family: sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+    padding: 20px;
+}
+
+h1, h2 {
+    color: #0056b3;
+}
+
+#prayer-times-table {
+    width: 80%;
+    max-width: 600px;
+    margin-top: 20px;
+    border-collapse: collapse;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+#prayer-times-table thead {
+    background-color: #007bff;
+    color: white;
+}
+
+#prayer-times-table th, #prayer-times-table td {
+    padding: 12px 15px;
+    border: 1px solid #ddd;
+    text-align: left;
+}
+
+#prayer-times-table tbody tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+#prayer-times-table tbody tr:hover {
+    background-color: #e9ecef;
+}
+
+.uptime-container {
+    margin-top: 30px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    text-align: center;
+}
+
+#server-uptime {
+    font-weight: bold;
+    color: #28a745;
+}
